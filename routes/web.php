@@ -14,10 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.category.index');
 });
 
 Route::resource('admin/category', 'App\\Http\\Controllers\\Admin\categoryController');
 Route::resource('admin/user-role', 'App\\Http\\Controllers\\Admin\userRoleController');
 Route::resource('admin/reservation-status', 'App\\Http\\Controllers\\Admin\reservationStatusController');
 Route::resource('admin/missing-item-status', 'App\\Http\\Controllers\\Admin\missingItemStatusController');
+Route::resource('admin/attendance', 'App\\Http\\Controllers\\Admin\attendanceController');
+Route::resource('admin/reservation', 'App\\Http\\Controllers\\Admin\reservationController');
+Route::resource('admin/schedule', 'App\\Http\\Controllers\\Admin\scheduleController');

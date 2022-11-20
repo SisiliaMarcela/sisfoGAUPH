@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title','Missing-Item-Stastus')
+
 @section('content')
     <div class="container">
         <div class="row">

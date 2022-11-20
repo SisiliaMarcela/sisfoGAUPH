@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','Reservation-Status')
+@section('title','Reservation')
 
 @section('content')
     <div class="container">
@@ -8,9 +8,9 @@
 
             <div class="col-md-9">
                 <div class="card">
-                    <div class="card-header">Edit reservationStatus #{{ $reservationstatus->id }}</div>
+                    <div class="card-header">Edit reservation #{{ $reservation->id }}</div>
                     <div class="card-body">
-                        <a href="{{ url('/admin/reservation-status') }}" title="Back"><button class="btn btn-warning btn-sm"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
+                        <a href="{{ url('/admin/reservation') }}" title="Back"><button class="btn btn-warning btn-sm"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
                         <br />
                         <br />
 
@@ -22,11 +22,11 @@
                             </ul>
                         @endif
 
-                        <form method="POST" action="{{ url('/admin/reservation-status/' . $reservationstatus->id) }}" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">
+                        <form method="POST" action="{{ url('/admin/reservation/' . $reservation->id) }}" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">
                             {{ method_field('PATCH') }}
                             {{ csrf_field() }}
 
-                            @include ('admin.reservation-status.form', ['formMode' => 'edit'])
+                            @include ('admin.reservation.form', ['formMode' => 'edit'])
 
                         </form>
 
