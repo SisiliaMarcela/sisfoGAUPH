@@ -53,7 +53,7 @@
             <a href='{{ asset("admin/reservation") }}' class="nav-link">
               <i class="nav-icon fas fa-book"></i>
               <p>
-                Resevation
+                Reservation
                </p>
             </a>
           </li>
