@@ -65,4 +65,12 @@
                </p>
             </a>
           </li>
+            <li class="nav-item">
+            <a href='{{ asset("admin/replacement-class") }}' class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>
+                Replacement Class
+               </p>
+            </a>
+          </li>
 </ul>
