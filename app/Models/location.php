@@ -4,14 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class attendance extends Model
+class location extends Model
 {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'attendances';
+    protected $table = 'locations';
 
     /**
     * The database primary key value.
@@ -25,8 +25,7 @@ class attendance extends Model
      *
      * @var array
      */
-    protected $fillable = ['user_id', 'class', 'room_id', 'location_id', 'attandence_collect_at', 'attandence_return_at', 'marker_return_at', 'marker_collect_at'];
+    protected $fillable = ['id', 'nama'];
 
     
 }
-

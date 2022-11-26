@@ -25,3 +25,12 @@ Route::resource('admin/attendance', 'App\\Http\\Controllers\\Admin\attendanceCon
 Route::resource('admin/reservation', 'App\\Http\\Controllers\\Admin\reservationController');
 Route::resource('admin/schedule', 'App\\Http\\Controllers\\Admin\scheduleController');
 Route::resource('admin/replacement-class', 'App\\Http\\Controllers\\Admin\replacementClassController');
+Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
+Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
+Route::resource('admin/location', 'App\\Http\\Controllers\\Admin\locationController');
+Route::resource('admin/lesson', 'App\\Http\\Controllers\\Admin\lessonController');
+Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
+Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
+Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
+Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
+Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
