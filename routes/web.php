@@ -34,3 +34,6 @@ Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
 Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
 Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
 Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
+Route::resource('admin/user', 'App\Http\Controllers\Admin\UserController');
+Route::resource('admin/request-missing-item', 'App\Http\Controllers\Admin\requestMissingItemController');
+Route::resource('admin/student', 'App\Http\Controllers\Admin\studentController');

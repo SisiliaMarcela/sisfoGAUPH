@@ -97,4 +97,28 @@
                </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href='{{ asset("/admin/user") }}' class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>
+                User
+               </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href='{{ asset("/admin/request-missing-item") }}' class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>
+                Request Missing Item Status
+               </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href='{{ asset("/admin/student") }}' class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>
+                Student
+               </p>
+            </a>
+          </li>
 </ul>
