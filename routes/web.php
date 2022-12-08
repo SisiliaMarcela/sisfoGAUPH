@@ -26,14 +26,8 @@ Route::resource('admin/reservation', 'App\\Http\\Controllers\\Admin\reservationC
 Route::resource('admin/schedule', 'App\\Http\\Controllers\\Admin\scheduleController');
 Route::resource('admin/replacement-class', 'App\\Http\\Controllers\\Admin\replacementClassController');
 Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
-Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
 Route::resource('admin/location', 'App\\Http\\Controllers\\Admin\locationController');
 Route::resource('admin/lesson', 'App\\Http\\Controllers\\Admin\lessonController');
-Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
-Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
-Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
-Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
-Route::resource('admin/room', 'App\\Http\\Controllers\\Admin\roomController');
 Route::resource('admin/user', 'App\Http\Controllers\Admin\UserController');
 Route::resource('admin/request-missing-item', 'App\Http\Controllers\Admin\requestMissingItemController');
 Route::resource('admin/student', 'App\Http\Controllers\Admin\studentController');
